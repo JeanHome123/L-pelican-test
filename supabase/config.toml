@@ -1,0 +1,7 @@
+project_id = "pelican-test"
+
+[functions.submit-work]
+verify_jwt = true
+
+[functions.moderate-work]
+verify_jwt = true

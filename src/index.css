@@ -1,0 +1,28 @@
+:root {
+  font-family: "Arial", "Helvetica Neue", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #f4f7fb;
+  background: #0b1017;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #0b1017;
+  --bg-raised: #111923;
+  --surface: #ffffff;
+  --ink: #10131d;
+  --muted: #8b93a5;
+  --muted-2: #c5cbd7;
+  --line: rgba(255, 255, 255, .10);
+  --line-dark: rgba(16, 19, 29, .14);
+  --cyan: #19b887;
+  --yellow: #ffcf4a;
+  --coral: #ff2f63;
+  --blue: #3180ed;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+a { color: inherit; }
+#root { min-height: 100vh; }
